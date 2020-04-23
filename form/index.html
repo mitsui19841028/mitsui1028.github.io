@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Portfolio | mitsui フォーム編</title>
+</head>
+<body>
+<h1><a name="pagetop" id="pagetop"></a>Mitsui's portfolio フォーム編</h1>
+<hr />
+<ul>
+  <li><a href="../index.html">ホーム</a></li>
+  <li><a href="../text/index.html">テキスト</a></li>
+  <li><a href="../List/index.html">リスト</a></li>
+  <li><a href="../img/index.html">イメージ</a></li>
+  <li><a href="../Link/index.html">リンク</a></li>
+  <li><a href="../table/index.html">テーブル</a></li>
+  <li>フォーム</li>
+  <li><a href="../sample/index.html">サンプル</a></li>
+</ul>
+<hr>
+<!-- ■フォーム部分ここから -->
+<form name="form1" id="form1" method="post" action="xxxxx.php">
+  <table width="600" border="0" cellspacing="0" cellpadding="5" summary="フォームレイアウト用テーブル">
+    <tbody>
+      <tr>
+        <td align="right">お名前:</td>
+        <td><input type="text" name="yourName" id="yourName"></td>
+      </tr>
+      <tr>
+        <td align="right">メールアドレス:</td>
+        <td><input type="text" name="yourMail" id="yourMail" /></td>
+      </tr>
+      <tr>
+        <td align="right">ID:</td>
+        <td><input type="text" name="yourID" id="yourID" maxlength="8" /></td>
+      </tr>
+      <tr>
+        <td align="right">パスワード:</td>
+        <td><input type=password name="yourPass" id="yourPass" /></td>
+      </tr>
+      <tr>
+        <td align="right">性別:</td>
+        <td><label for="yourGender1">男性</label>
+          <input type="radio" name="yourGender" id="yourGender1" value="男">
+          <label for="yourGender2">女性</label>
+          <input type="radio" name="yourGender" id="yourGender2" value="女"></td>
+      </tr>
+      <tr>
+        <td align="right">メルマガ希望:</td>
+        <td><label for="yourMailMag1">する</label>
+          <input type="radio" name="yourMailMag" id="yourMailMag1" value="する">
+          <label for="yourMailMag2">しない</label>
+          <input type="radio" name="yourMailMag" id="yourMailMag2" value="しない" checked="checked"></td>
+      </tr>
+      <tr>
+        <td align="right">アンケート:</td>
+        <td><label for="yourAns1">答え1</label>
+          <input type="checkbox" name="yourAns1" id="yourAns1" value="答え1">
+          <label for="yourAns2">答え2</label>
+          <input type="checkbox" name="yourAns2" id="yourAns2" value="答え2">
+          <label for="yourAns3">答え3</label>
+          <input type="checkbox" name="yourAns3" id="yourAns3" value="答え3"></td>
+      </tr>
+      <tr>
+        <td align="right">職業:</td>
+        <td><select name="yourWork" id="yourWork">
+            <option selected>職業をお選びください</option>
+            <option value="学生">学生</option>
+            <option value="社会人">社会人</option>
+            <option value="自営業">自営業</option>
+            <option value="その他">その他</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td align="right">その他:</td>
+        <td><textarea cols="45" rows="5">ご質問はこちらまで</textarea></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="yourSubmit" id="yourSubmit" value="送信">
+          <input type="reset" name="yourReset" id="yourReset" value="リセット"></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<!-- ■フォーム部分ここまで -->
+
+<hr />
+<p><a href="#pagetop">ページの先頭に戻る</a></p>
+<hr />
+<address>
+デジタルハリウッド　お問い合わせ： <a href="mailto:xxx@dhw.co.jp">xxx@dhw.co.jp</a>
+</address>
+<p>Copyright 20xx digitalhollywood Co.,Ltd All Rights Reserved,</p>
+</body>
+</html>

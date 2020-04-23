@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* bodyの文字の色と背景の設定 */
+body{
+	color:#333;
+	background:#eee;
+}
+
+
+/*IDcontainerの幅と背景を変えて上下に余白を15px設定*/
+div#container{
+	width: 760px;
+	background:#fff;
+	padding:15px 0;
+}
+
+
+/*==================
+header
+==================*/
+/*divタグのIDheaderの領域の中のh1タグの
+背景、文字の色、文字のサイズ、内側の余白7px、外側上下0左右25px、上下左右ボーダー設定*/
+div#header h1{
+	background:#069;
+	color:#fff;
+	font-size:130%;
+	padding:7px;
+	margin:0 25px 0;
+	border:3px solid #999;
+}
+
+/*divタグのIDheaderの領域の中のpタグの余白を上10、左右35px*/
+div#header p{
+	margin:10px 35px 0;
+}
+
+/*==================
+area
+==================*/
+/*divタグのIDareaの
+上下左右のボーダー、背景の色、内側の余白8px、外側の余白上下15px左右自動でセンター寄せ、幅500px*/
+div#area{
+	border:1px solid #999;
+	background:#ffc;
+	padding:8px;
+	margin:15px auto;
+	width: 500px;
+}
+
+/*divタグのIDareaのh2
+文字サイズ、太字、文字の色、ボーダーの左側、内側の余白の左5px
+*/
+div#area h2{
+	font-size:110%;
+	font-weight:bold;
+	color:#069;
+	border-left:5px solid #069;
+	padding: 0 0 0 5px;
+}
+
+/*divタグのIDareaのp
+上の余白10px
+*/
+div#area p{
+	margin:10px 0 0 0;
+}
+
+
+/*==================
+nav
+==================*/
+/*divタグのIDnavのh2
+文字の色、太さ、サイズ、ボーダーの左、内側左5px、外側上15px左右25px下0
+*/
+div#nav h2{
+	font-size:110%;
+	font-weight:bold;
+	color:#069;
+	border-left:5px solid #069;
+	padding:0 0 0 5px;
+	margin:15px 25px 0;
+}
+
+/*divタグのIDnavのul
+上下左右のボーダー、外側上15px左右40px下0、幅120px
+*/
+div#nav ul{
+	border:1px solid #666;
+	margin:15px 40px 0;
+	width: 120px;
+}
+
+/*divタグのIDnavのa
+文字の色、下線なし、左のボーダー、内側左5px
+*/
+div#nav a{
+	color:#069;
+	text-decoration:none;
+	border-left:4px solid #069;
+	padding:0 0 0 5px;
+}
+
+/*divタグのIDnavのaのホバー
+文字の色、左のボーダー
+*/
+div#nav a:hover{
+	color:#f60;
+	border-left:4px solid #f60;
+}
+
+/*divタグのIDnavのli
+下のボーダー、内側上4px右0下4px左4px
+*/
+div#nav li{
+	border-bottom:1px dashed #999;
+	padding:4px 0 4px 4px;
+}
+
+
+/*divタグのIDnavのliにclass="end"が入った場合
+下のボーダーをなしにする
+*/
+div#nav li.end{
+	border-bottom:none;
+}
+
+
+
+
+
+

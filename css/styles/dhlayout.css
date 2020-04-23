@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+@import "reset.css";
+@import "font.css";
+
+
+
+/* =======================
+BASE
+=======================*/
+body{
+	color:#333;
+	background:#eee;
+}
+
+
+/* =======================
+LAYOUT
+=======================*/
+/*idのheader、contents、footerのサイズを760pxに設定*/
+div#header,
+div#contents,
+div#footer{
+	width:760px;
+}
+
+div#header{
+	background:#ff4c00;
+}
+
+div#contents{
+	background:#fff;
+	padding:15px 0 10px 0;
+}
+
+div#footer{
+	background:#333;
+	color:#fff;
+	text-align:right;
+}
+
+
+
+/* =======================
+LINK
+=======================*/
+/*ベーシックリンク設定*/
+a:link,
+a:visited,
+a:active{
+	color:#069;
+	text-decoration:underline;
+}
+
+a:hover{
+	color:#f60;
+	text-decoration:none;
+}
+
+
+/*更新情報リンク*/
+div#contents div#news a{
+	text-decoration:none;
+}
+
+
+/*お問い合わせリンク*/
+div#footer address a{
+	color:#ff0;
+	text-decoration:underline;
+}
+
+div#footer address a:hover{
+	text-decoration:none;
+}
+
+
+/*コピーライトリンク*/
+div#footer p a{
+	color:#ccc;
+	text-decoration:none;
+}
+
+div#footer p a:hover{
+	text-decoration:underline;
+}
+
+/* =======================
+HEADER
+=======================*/
+div#header h1{
+	padding:6px 0 0 2px;
+}
+
+/* =======================
+CONTENTS
+=======================*/
+/*更新情報*/
+div#contents div#news{
+	border:1px solid #999;
+	background:url(../images/bg_taikaku.gif) repeat;
+	margin:0 20px 0;
+	padding:8px;
+}
+
+
+div#contents div#news h2{
+	background:#f60;
+	color:#fff;
+	font-weight:bold;
+	padding:6px;
+	border:1px solid #fff;
+}
+
+div#contents div#news ul{
+	margin:10px 0 0 0;
+}
+
+div#contents div#news li{
+	border-bottom:1px dashed #999;
+	padding:4px;
+}
+
+div#contents div#news p{
+	text-align:right;
+	margin:10px 3px 0 0;
+}
+
+
+
+/*イベント、アクセス共通*/
+div#contents div#event h2,
+div#contents div#access h2{
+	border-left:5px solid #f60;
+	border-bottom:1px dashed #999;
+	margin:20px 15px 0;
+	padding:2px 0 2px 6px;
+	font-weight:bold;
+	color:#f30;
+	font-size:110%;
+}
+
+div#contents div#event p,
+div#contents div#access p{
+	margin:10px 20px 0 25px;
+}
+
+div#contents strong{
+	font-weight:bold;
+	color:#f00;
+}
+
+
+/*ページの先頭へ戻る*/
+p#toppage{
+	text-align:right;
+	margin:25px 20px 0 0;
+}
+
+/* =======================
+FOOTER
+=======================*/
+div#footer address{
+	padding:8px 10px 0 0;
+}
+
+div#footer p{
+	padding:3px 8px 6px 0;
+}
+
+
+
+
+

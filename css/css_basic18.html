@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>背景画像アイコンの設定</title>
+
+<style type="text/css">
+
+/*ページ全体の背景用*/
+body{
+	/*background-image: url("images/pho_dakki.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed; */
+	background: #fff url("images/bg_taikaku.gif") repeat;
+}
+
+/*リスト関連の余白をクリア*/
+ul{
+	margin:0;
+	padding:0;
+}
+
+/*リストタグの中黒を消す*/
+li{
+	list-style: none;
+}
+
+
+/*見出し後ろの背景用*/
+div#header{
+	background: #fff url("images/bg_header.gif") repeat-x;
+}
+
+/*icon01のliタグに設定*/
+div.icon01 li{
+	background: url( "images/icon_more1.gif") no-repeat 3px 4px;
+	border-bottom:1px dashed #999;
+	padding:0 0 7px 25px;
+	margin:10px 0 0 0;
+}
+
+div.icon01 li:hover{
+	background: url( "images/icon_more1_on.gif") no-repeat 3px 4px;
+	
+}
+
+/*ulの背景を白に*/
+div.icon01 ul,
+div.icon02 ul{
+	background:#fff;
+	border:1px solid #999;
+	padding:8px;
+}
+
+/*icon01のリンク設定*/
+div.icon01 a{
+	color:#069;
+	text-decoration:none;
+}
+
+div.icon01 a:hover{
+	color:#f60;
+}
+
+
+/*icon02のliタグに設定*/
+div.icon02 li{
+	border-bottom:1px dashed #999;
+	padding:0 0 7px 0;
+	margin:10px 0 0 0;
+}
+
+/*icon02のリンク設定*/
+div.icon02 a{
+	color:#069;
+	text-decoration:none;
+	background: url("images/icon_more1.gif") no-repeat 3px 3px;
+	padding:0 0 0 25px;
+}
+
+div.icon02 a:hover{
+	color:#f60;
+	background: url("images/icon_more1_on.gif") no-repeat 3px 3px;	
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+  <h1>背景画像アイコンの設定</h1>
+</div>
+<!-- /header -->
+
+
+<!-- icon01 -->
+<div class="icon01">
+  <h2>アイコン画像の設定（liタグ）</h2>
+  <ul>
+    <li><a href="#">テキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</a></li>
+  </ul>
+</div>
+<!-- /icon01 -->
+
+
+<!-- icon02 -->
+<div class="icon02">
+  <h2>アイコン画像の設定（aタグ）</h2>
+  <ul>
+    <li><a href="#">テキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</a></li>
+  </ul>
+</div>
+<!-- /icon02 -->
+
+</body>
+</html>

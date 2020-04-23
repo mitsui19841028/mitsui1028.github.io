@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Portfolio | mitsui Image</title>
+</head>
+<body>
+<h1><a name="pagetop" id="pagetop"></a>Mitsui's portfolio / Image</h1>
+<hr />
+<ul>
+  <li><a href="../index.html">ホーム</a></li>
+  <li><a href="../text/index.html">テキスト</a></li>
+  <li><a href="../List/index.html">リスト</a></li>
+  <li>イメージ</li>
+  <li><a href="../Link/index.html">リンク</a></li>
+  <li><a href="../table/index.html">テーブル</a></li>
+  <li><a href="../form/index.html">フォーム</a></li>
+  <li><a href="../sample/index.html">サンプル</a></li>
+</ul>
+<hr>
+<h2>画像貼り付け基本(imgタグとソース属性)</h2>
+<p>画像を貼り付ける場合は、下記は標準で必ず記述すること</p>
+<ul>
+  <li>幅(width)</li>
+  <li>高さ(heght)</li>
+  <li>代替テキスト(alt) 音声ブラウザはこれを読み上げる。検索もこれをみる！</li>
+</ul>
+<h3>標準的な画像貼り付けサンプル</h3>
+<p><img src="../images/E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg" width="1024" height="768" alt="サンディエゴ SanDiego"></p>
+<h3>title属性を追加</h3>
+<p><img src="../images/E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg" width="1024" height="768" alt="サンディエゴ SanDiego" title="サンディエゴ SanDiego"></p>
+<h3>画像破損時のサンプル</h3>
+<p><img src="../E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg" width="1024" height="768" alt="【alt】サンディエゴ SanDiego" title="【title】サンディエゴ SanDiego">幅、高さ、alt、titleあり</p>
+<p><img src="../E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg" width="1024" height="768">幅、高さあり、alt、titleなし</p>
+<p><img src="../E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg" alt="【alt】サンディエゴ SanDiego" title="【title】サンディエゴ SanDiego">幅、高さなし、alt、titleあり</p>
+<p><img src="../E63D7E35-3E48-4643-BA92-AFE5BAEC75B3_1_105_c.jpeg">幅、高さ、alt、titleなし</p>
+<hr />
+<h2>クリッカブルマップの作成</h2>
+<p>クリッカブルマップ(イメージマップ、ホットスポットマップ)とは１枚の画像の一部分や複数のリンクに設定する方法で、DWが一番簡単に作成できます</p>
+<p><img src="../images/FEA134E3-B2CE-4641-A042-5E3737127F0F_1_105_c.jpeg" alt="バーガー" width="768" height="1024" usemap="#Map" title="バーガー" border="0">
+  <map name="Map" id="Map">
+    <area shape="rect" coords="287,408,635,729" href="https://www.mcdonalds.co.jp/" target="_blank" alt="バーガー" title="マクドへリンク" />
+    <area shape="circle" coords="172,477,73" href="https://www.google.co.jp/" target="_blank" />
+  </map>
+</p>
+<hr />
+<p><a href="#pagetop">ページの先頭に戻る</a></p>
+<hr />
+<address>
+デジタルハリウッド　お問い合わせ： <a href="mailto:xxx@dhw.co.jp">xxx@dhw.co.jp</a>
+</address>
+<p>Copyright 20xx digitalhollywood Co.,Ltd All Rights Reserved,</p>
+</body>
+</html>

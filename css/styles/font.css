@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*===================================
+ * css file for "moonyworks.com"
+ * file name : font.css
+===================================== */
+
+/*======================================
+Yahoo UI Library Fonts CSS
+http://developer.yahoo.com/yui/fonts/
+
+//Font-size Adjustment
+
+font-size:77% = 10px
+font-size:85% = 11px
+font-size:93% = 12px
+font-size:100% = 13px
+font-size:108% = 14px
+font-size:116% = 15px
+font-size:123.1% = 16px
+font-size:131% = 17px
+font-size:138.5% = 18px
+font-size:146.5% = 19px
+font-size:153.9% = 20px
+font-size:161.6% = 21px
+font-size:167% = 22px
+font-size:174% = 23px
+font-size:182% = 24px
+font-size:189% = 25px
+font-size:197% = 26px
+
+=======================================*/
+
+body{font-size:13px;*font-size:small;*font:x-small;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+select, input, textarea {font-size:99%;}
+table {font-size:inherit;font:100%;}
+
+
+.size_1{font-size:85%;}
+.size_2{font-size:93%;}
+.size_3{font-size:108%;}
+.size_4{font-size:116%;}
+.size_5{font-size:123.1%;}
+
+
+/*======================================
+	1-2.Universal selector
+=======================================*/
+
+* {line-height: 1.4;font-size: 100%;font-weight: normal;font-style: normal;}

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSSの優先順位と最優先設定</title>
+<link rel="stylesheet" type="text/css" href="styles/04_yuusen.css" />
+
+<style type="text/css">
+
+h1{
+	color:#f00;
+}
+
+p{
+	color:#00f;
+}
+
+</style>
+
+</head>
+
+<body>
+<h1 style="color:#39f;">CSSの優先順位と最優先設定</h1>
+<p style="color:#999;">style要素、インライン、外部CSSとそれぞれに同じ要素に設定をすると優先度は下記のようになります。</p>
+<ol>
+  <li>インラインに記述</li>
+  <li>style要素に記述</li>
+  <li>外部CSSに記述</li>
+</ol>
+<p style="color:#999;">※また!importantをつけると最優先となります。</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文字の太字と斜体の設定</title>
+
+<style type="text/css">
+
+strong,
+em{
+	color:#f00;
+}
+
+	.txtbold{
+		font-weight: bold;
+	}
+	.nomal{
+		font-weight: normal;
+		font-style: normal;
+	}
+	.txtitalic{
+		font-style: italic;
+	}
+</style>
+
+</head>
+
+<body>
+<h1>文字の太字と斜体の設定</h1>
+<hr />
+
+<h2>通常のまま</h2>
+<p><strong>strongタグを太字</strong></p>
+<p><em>emタグを斜体</em></p>
+
+<h2>CSSで標準に戻す</h2>
+<p><strong class="nomal">strongタグを標準体</strong></p>
+<p><em class="nomal">emタグを標準体</em></p>
+
+<hr />
+<h2>文字を太字と斜体にする（strongとemを使わず）</h2>
+<p class="txtbold">文字を太字にする</p>
+<p class="txtitalic">文字を斜体にする</p>
+
+</body>
+</html>

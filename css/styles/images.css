@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+	color:#333;
+	background:url(../images/bg_taikaku.gif) repeat;
+}
+
+div#container{
+	width:500px;
+	background:#fff;
+	margin:0 auto;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	padding:15px 0;
+}
+
+h1{
+	border:3px solid #999;
+	background:#069;
+	color:#fff;
+	padding:7px;
+	margin:0 15px;
+	font-size:110%;
+}
+
+h2{
+	border-left:5px solid #069;
+	border-bottom:1px dashed #999;
+	padding:2px 0 1px 6px;
+	margin:10px 15px 0;
+	font-weight:bold;
+}
+
+h3{
+	font-weight:bold;
+	color:#069;
+	margin:10px 0 0 25px;
+}
+
+
+/*============
+画像共通設定
+============*/
+img{
+	margin:10px 0 0 40px;
+}
+
+
+/*============
+画像01
+============*/
+img.img1{
+	border: 2px solid #999;
+}
+
+/*============
+画像02
+============*/
+img.img2{
+	border: 1px solid #999;
+	padding: 2px;
+}
+
+
+/*============
+画像03
+============*/
+img.img3{
+	border: 1px solid #999;
+	padding: 3px;
+	background: #ffc;
+}
+
+
+/*============
+画像04
+============*/
+img.img4{
+	border: 1px solid #999;
+	padding: 2px;
+}
+
+img.img4:hover{
+	border: 1px solid #f39;
+	
+}
+
+

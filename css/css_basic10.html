@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>テキストリンクの設定</title>
+<style type="text/css">
+/*====================
+ベースリンク設定
+====================*/
+	/*
+	a:link {
+		color: #FF0000;
+		text-decoration: none;
+	}
+	a:visited{
+		color: #FF00FF;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #0066CC;
+		text-decoration: none;
+	}
+	a:active{
+		color: #FFCC00;
+		text-decoration: none;
+	}
+*/
+
+a:link, a:visited, a:active {
+    color: #006699;
+    text-decoration: underline;
+}
+/*下記でも良い*/
+/*	a{
+	color: #006699;
+	text-decoration: none;
+
+	}
+	*/
+a:hover {
+    color: #CC0000;
+    text-decoration: none;
+}
+/*====================
+別リンク設定１（クラス使用）
+====================*/
+
+a.etc1:link, a.etc1:visited, a.etc1:active {
+    color: #006600;
+    text-decoration: none;
+}
+a.etc1:hover {
+    color: #FF6600;
+    text-decoration: underline
+}
+/*下記でも良い*/
+	/*
+	a.etc1{
+		color: #006600;
+		text-decoration: none;
+	}
+	a.etc1:hover{
+		color: #FF6600;
+		text-decoration: underline;
+	}
+*/
+	
+/*====================
+別リンク設定2（領域設定）
+====================*/
+
+div#linkarea a:link, div#linkarea a:visited, div#linkarea a:active {
+    color: #FF0000;
+    text-decoration: underline
+}
+div#linkarea a:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+	/*下記でも良い*/
+	/*
+	div#linkarea a{
+		color: #FF0000;
+		text-decoration: underline		
+	}
+	div#linkarea a:hover{
+		color: #0000FF;
+		text-decoration: none;		
+	}
+	*/
+</style>
+</head>
+
+<body>
+<h1>テキストリンクの設定</h1>
+<hr />
+<h2>ベースリンク設定</h2>
+<p>※linkとvisitedとactiveをまとめて設定</p>
+<ul>
+  <li><a href="#">リンク</a></li>
+  <li><a href="#">リンク</a></li>
+  <li><a href="#">リンク</a></li>
+</ul>
+<hr />
+<h2>別リンク設定１（クラス使用）</h2>
+<ul>
+  <li><a href="#" class="etc1">リンク</a></li>
+  <li><a href="#" class="etc1">リンク</a></li>
+</ul>
+<hr />
+<h2>別リンク設定2（領域設定）</h2>
+<div id="linkarea">
+  <ul>
+    <li><a href="#">リンク</a></li>
+    <li><a href="#">リンク</a></li>
+  </ul>
+  <p><a href="#">リンク</a></p>
+</div>
+<hr />
+</body>
+</html>
